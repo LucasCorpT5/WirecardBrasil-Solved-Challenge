@@ -5,7 +5,7 @@ describe("Create card", () => {
     it("should be able to create card", async() => {
         const response = await request(app).post("/card/create").send({
             cardHolder: "Lucas araujo",
-            cardNumber: "5341737040574653",
+            cardNumber: "4556994530252703",
             cardExpiration: "21/30",
             cvv: 109
         });
